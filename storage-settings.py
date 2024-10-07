@@ -3,7 +3,7 @@ import sys
 from maas.client import connect, enum
 
 MAAS = {
-"c1": ("http://X.X.X.X:5240/MAAS", "api-key"),
+"cluster-name": ("http://X.X.X.X:5240/MAAS", "api-key"),
 }
 
 env = sys.argv[1]
